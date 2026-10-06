@@ -1,11 +1,58 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy — Glucio</title><style>body{margin:0;background:#F6EEDC;color:#22301A;font:17px/1.6 -apple-system,system-ui,sans-serif}main{max-width:680px;margin:0 auto;padding:48px 22px 80px}h1{font:800 32px/1.15 -apple-system,system-ui,sans-serif;margin:0 0 6px}h2{font:700 19px/1.3 -apple-system,system-ui,sans-serif;margin:30px 0 8px}a{color:#4E8A2C}.muted{color:#5E6B52;font-size:14px}.rule{height:4px;width:64px;border-radius:2px;background:#4E8A2C;margin:14px 0 22px}li{margin:4px 0}.note{background:#DCEBBE;border-radius:14px;padding:14px 18px}@media (prefers-color-scheme:dark){body{background:#171A12;color:#EEF0DF}a{color:#8CC65E}.muted{color:#A9B198}.note{background:#33402A}}</style></head><body><main><h1>Privacy Policy</h1><div class="muted">Glucio: Blood Sugar Tracker · Last updated September 27, 2026</div><div class="rule"></div>
-<p>Glucio is a personal glucose diary. Your readings, meals, medicines and notes stay on your iPhone. There are no accounts, no server that stores your health data, and we don't sell or share your data.</p>
-<h2>What stays on your device</h2><ul><li>Glucose readings you type in or import, with their time, context and notes.</li><li>Meals, medicines and doses you log.</li><li>Your settings: units, target range, reminders and answers from the first-run questions.</li><li>Doctor reports (PDF) you create. They leave the app only when you share them yourself.</li></ul>
-<h2>Apple Health</h2><p>If you allow it, Glucio <b>reads</b> blood glucose samples from Apple Health to fill in your diary. It never writes to Health. Health data is never sent to us or to any third party, is not used for advertising or marketing, and is not stored in iCloud by Glucio.</p>
-<h2>Purchases</h2><p>Subscriptions are processed by Apple through the App Store. Glucio receives only the status of your subscription, never your payment details. We use a subscription-management service (Adapty) that receives an anonymous app-install identifier and purchase status to validate subscriptions and measure how the paywall performs; it never receives your readings or any health data.</p>
-<h2>Notifications</h2><p>Reading reminders and the reminder a day before a free trial ends are local notifications scheduled on your iPhone. No push server is involved.</p>
-<h2>Analytics and tracking</h2><p>Glucio does not track you across apps or websites, does not use advertising identifiers and contains no third-party analytics beyond the subscription service above.</p>
-<h2>Deleting your data</h2><p>Remove any entry with the ✕ next to it, or delete Glucio from your iPhone to remove everything it stored. Data in Apple Health is managed in the Health app.</p>
-<h2>Not medical advice</h2><p class="note">Glucio is a diary, not a medical device. It does not diagnose, treat or give dosing advice. Estimates such as A1c (GMI) come from your own log and are not lab results.</p>
-<h2>Children</h2><p>Glucio is not directed at children under 13.</p>
-<h2>Changes</h2><p>If this policy changes, the new version will be posted on this page with a new date.</p><p class="muted">Questions: <a href="mailto:netkaktakto@gmail.com">netkaktakto@gmail.com</a></p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="What Glucio stores, reads and shares.">
+<title>Privacy | Glucio</title>
+<style>
+
+:root{--bg:#FFFFFF;--tint:#F1F6E7;--ink:#1C2616;--soft:#5B6753;--leaf:#3F7A22;--line:#DCE5CE;--warn:#B06F0C;--warnbg:#FFF4DC}
+@media (prefers-color-scheme:dark){:root{--bg:#10130C;--tint:#1B2214;--ink:#E8EDDA;--soft:#9BA68E;--leaf:#8CC65E;--line:#2F3A24;--warn:#E8A93A;--warnbg:#2A2210}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+a{color:var(--leaf);font-weight:600}
+.top{background:var(--tint);border-bottom:1px solid var(--line)}
+.top div{max-width:900px;margin:0 auto;padding:16px 20px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.top strong{font-size:18px;margin-right:auto;color:var(--leaf)}
+.top a{font-size:14px;font-weight:500;text-decoration:none;color:var(--ink);padding:6px 14px;border-radius:99px;border:1px solid var(--line)}
+.top a.on{background:var(--leaf);color:var(--bg);border-color:var(--leaf)}
+main{max-width:900px;margin:0 auto;padding:36px 20px 70px}
+h1{font-size:clamp(30px,6vw,44px);line-height:1.1;margin:0 0 4px;font-weight:800;letter-spacing:-.02em}
+.sub{color:var(--soft);margin:0 0 28px}
+dl{margin:0;display:grid;grid-template-columns:minmax(150px,230px) 1fr;gap:0 28px}
+dt{font-weight:700;padding:16px 0;border-top:1px solid var(--line)}
+dd{margin:0;padding:16px 0;border-top:1px solid var(--line)}
+dd p{margin:0 0 10px}dd ul{margin:0 0 10px;padding-left:20px}
+.box{background:var(--warnbg);border:1px solid var(--warn);border-radius:12px;padding:14px 18px;margin:0 0 26px}
+.box b{color:var(--warn)}
+.ok{background:var(--tint);border-radius:12px;padding:14px 18px;margin:0 0 26px}
+code{background:var(--tint);padding:1px 6px;border-radius:5px;font-size:14px}
+footer{max-width:900px;margin:0 auto;padding:0 20px 40px;color:var(--soft);font-size:13px}
+@media(max-width:620px){dl{display:block}dt{padding-bottom:0;border-bottom:0}dd{border-top:0;padding-top:6px}}
+
+</style>
+</head>
+<body>
+<div class="top"><div><strong>Glucio</strong><a href="index.html">Home</a><a href="privacy.html" class=on>Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></div></div>
+<main>
+<h1>Privacy</h1>
+<p class="sub">Updated October 6, 2026</p>
+<div class="ok"><b>In one line:</b> your glucose diary is kept on your iPhone, Glucio asks for no login, and the only outside service it talks to is the one that manages subscriptions.</div>
+<dl>
+<dt>Readings, meals, doses, notes</dt><dd><p>What you type or import, with times, tags and units, plus your target range, reminder times and first-run answers, is stored in Glucio&rsquo;s own storage on the iPhone. We never receive it and there is no Glucio server that holds health data.</p></dd>
+<dt>Apple Health</dt><dd><p>If you switch it on, Glucio asks iOS for permission to <b>read</b> blood glucose samples and fills your diary with them. It does not write to Health. Health data is not sent to us or to anyone else, is not used for advertising or marketing, and stays out of any analytics.</p></dd>
+<dt>Doctor reports</dt><dd><p>The PDF is built on the iPhone from the period you pick. It goes only where you send it with the iOS share sheet.</p></dd>
+<dt>Reminders</dt><dd><p>Reading reminders, and the reminder the day before a free trial ends, are local notifications scheduled by iOS on your phone. There is no push server.</p></dd>
+<dt>Subscriptions</dt><dd><p>Apple takes the payment and we never see card details. The subscription service Adapty receives an anonymous install ID, your purchase status and basic paywall events so it can unlock Pro and restore purchases. It does not receive your readings.</p></dd>
+<dt>Phone backups</dt><dd><p>Because the diary lives in the app&rsquo;s storage, iOS may include it in your iCloud or computer backup of the iPhone if you have those backups on. That is an iOS setting you control; we do not run it.</p></dd>
+<dt>What is not collected</dt><dd><p>No advertising ID, no tracking across other apps or sites, no third-party analytics kits besides the subscription service above.</p></dd>
+<dt>Deleting</dt><dd><p>Remove an entry with the &#10005; beside it, or delete Glucio to remove everything it holds. Samples in Apple Health are managed in the Health app.</p></dd>
+<dt>Not medical advice</dt><dd><p>Glucio is a diary. It does not diagnose, treat or advise on doses. An estimated GMI is worked out from your own log and is not a lab result.</p></dd>
+<dt>Children, changes, contact</dt><dd><p>Not meant for children under 13. A revised page gets a new date. Questions: <a href="mailto:netkaktakto@gmail.com">netkaktakto@gmail.com</a>.</p></dd>
+</dl>
+</main>
+<footer>Glucio · October 6, 2026 · <a href="mailto:netkaktakto@gmail.com">netkaktakto@gmail.com</a></footer>
+</body>
+</html>
